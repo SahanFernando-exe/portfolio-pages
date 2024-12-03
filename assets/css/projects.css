@@ -1,0 +1,60 @@
+:root {
+    --high0: #005550;
+    --high5: #00a080;
+    --high10: #00e0c0;
+    --high100: #88ffdd;
+}
+
+img {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: var(--high5);
+    border: var(--high0) solid 5px;
+    border-radius: 20px;
+}
+
+section > section {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px;
+}
+
+article {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: var(--high100);
+    padding: 20px;
+    text-align: center;
+}
+
+article > h1 {
+    margin: 0;
+}
+
+@media screen and (min-width: 731px) {
+
+    main > section {
+        display: flex;
+    }
+
+    section > section {
+        width: 40%;
+        padding: 50px;
+    }
+
+    img {
+        width: 100%;
+        background-color: var(--high5);
+        border: var(--high0) solid 5px;
+        border-radius: 20px;
+    }
+    
+    article {
+        box-sizing: border-box;
+        width: 60%;
+        background-color: var(--high100);
+        padding: 20px;
+        padding-top: 40px;
+    }
+
+}
