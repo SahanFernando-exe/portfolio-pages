@@ -4,14 +4,6 @@
     --high10: #00e0c0;
 }
 
-main {
-    box-sizing: border-box;
-    height: calc(100vh);
-    background-color: var(--high10);
-    margin: 0px;
-    padding: 0px;
-}
-
 .profile {
     padding: 10%;
     width: 80%;

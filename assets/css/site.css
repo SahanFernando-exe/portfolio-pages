@@ -5,15 +5,10 @@
 }
 
 main {
-    box-sizing: border-box;
-    height: calc(100vh);
-    background-color: var(--high10);
-    margin: 0px;
-    padding: 20px;
+    margin-top: 20vh;
 }
 
 .name {
-    padding-top: 20%;
     text-align: center;
     font-size: 96px;
 }

@@ -35,7 +35,7 @@ main {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    padding-top: 60px;
+    margin-top: 60px;
 }
 
 html {
