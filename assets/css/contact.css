@@ -1,0 +1,34 @@
+:root {
+    --high0: #005550;
+    --high5: #00a080;
+    --high10: #00e0c0;
+    --high100: #88ffdd;
+    --coners: 20px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+section {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px;
+    border-radius: var(--coners);
+    background-color: var(--high0);
+    padding: 10px;
+}
+
+section > h1 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+
+section > p {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
