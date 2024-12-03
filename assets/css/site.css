@@ -1,7 +1,13 @@
+:root {
+    --high0: #005550;
+    --high5: #00a080;
+    --high10: #00e0c0;
+}
+
 main {
     box-sizing: border-box;
-    height: calc(100vh - 70px);
-    background-color: aquamarine;
+    height: calc(100vh);
+    background-color: var(--high10);
     margin: 0px;
     padding: 20px;
 }

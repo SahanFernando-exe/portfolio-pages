@@ -1,17 +1,25 @@
+:root {
+    --high0: #005550;
+    --high5: #008880;
+    --high10: #00bba0;
+}
+
 nav {
     box-sizing: border-box;
     display: flex;
     width: 100%;
-    background-color: aqua;
+    background-color: var(--high0);
     padding: 5px;
     margin: 0px;
 }
 
 nav > button {
     padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 5px;
-    background-color: blueviolet;
-    border: red solid 2px;
+    background-color: var(--high5);
+    border: var(--high10) solid 2px;
     border-radius: 10px;
     box-sizing: border-box;
 }
