@@ -16,14 +16,14 @@ section {
     margin-top: 10px;
 }
 
-section:nth-child(odd) {
+section:nth-child(even) {
     text-align: left;
     border-left: var(--high0) solid 10px;
     padding-left: 20px;
     padding-right: 20%;
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
     text-align: right;
     border-right: var(--high0) solid 10px;
     padding-right: 20px;

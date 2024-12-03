@@ -7,14 +7,13 @@
 }
 
 main {
-    display: flex;
     padding: 20px;
 }
 
 section {
     box-sizing: border-box;
     width: 100%;
-    margin: 20px;
+    margin-bottom: 20px;
     border-radius: var(--coners);
     background-color: var(--high0);
     padding: 10px;
@@ -31,4 +30,17 @@ section > p {
     text-align: center;
     padding: 10px;
     margin: 0;
+}
+
+
+@media screen and (min-width: 731px) {
+
+    main {
+        display: flex;
+    }
+
+    section {
+        margin: 20px;
+    }
+
 }
