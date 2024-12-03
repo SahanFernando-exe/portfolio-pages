@@ -16,6 +16,7 @@ nav {
 }
 
 nav > a {
+    transition: 0.2s;
     font-size: 24px;
     padding: 5px;
     padding-left: 10px;
@@ -27,6 +28,11 @@ nav > a {
     box-sizing: border-box;
     color: #000;
     text-decoration: none;
+}
+
+nav > a:hover {
+    transition: 0.2s;
+    background-color: var(--high10);
 }
 
 nav > gap {

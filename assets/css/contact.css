@@ -2,7 +2,6 @@
     --high0: #005550;
     --high5: #00a080;
     --high10: #00e0c0;
-    --high100: #88ffdd;
     --corners: 20px;
 }
 
@@ -28,7 +27,7 @@ section > h1 {
 }
 
 
-section > p {
+section > a > p {
     text-align: center;
     padding: 10px;
     margin: 0;
@@ -43,6 +42,12 @@ section > img {
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px;
+}
+
+section > a {
+    margin: 0;
+    text-decoration: none;
+    color: #000;
 }
 
 @media screen and (min-width: 600px) {
@@ -63,6 +68,10 @@ section > img {
 
     section {
         margin: 20px;
+    }
+
+    section > a > p {
+        height: 40px;
     }
 
 }

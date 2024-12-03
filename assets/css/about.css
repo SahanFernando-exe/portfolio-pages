@@ -2,7 +2,6 @@
     --high0: #005550;
     --high5: #00a080;
     --high10: #00e0c0;
-    --high100: #88ffdd;
 }
 
 .profile {
@@ -14,7 +13,7 @@
     align-self: center;
     border-radius: 50%;
     border: var(--high0) solid 10px;
-    background-color: var(--high100);
+    background-color: var(--high5);
 }
 
 .profile:hover {
