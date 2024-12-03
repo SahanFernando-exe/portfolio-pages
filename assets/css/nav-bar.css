@@ -1,0 +1,21 @@
+nav {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    padding: 5px;
+    margin: 0px;
+}
+
+nav > button {
+    padding: 5px;
+    margin: 5px;
+    background-color: blueviolet;
+    border: red solid 2px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+nav > gap {
+    flex-grow: 1;
+}
