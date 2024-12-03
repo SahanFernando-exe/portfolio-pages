@@ -1,0 +1,47 @@
+:root {
+    --high0: #005550;
+    --high5: #00a080;
+    --high10: #00e0c0;
+}
+
+header > h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+section {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px;
+}
+
+section:nth-child(odd) {
+    text-align: left;
+    border-left: var(--high0) solid 10px;
+    padding-left: 20px;
+    padding-right: 20%;
+}
+
+section:nth-child(even) {
+    text-align: right;
+    border-right: var(--high0) solid 10px;
+    padding-right: 20px;
+    padding-left: 20%;
+}
+
+
+section > div {
+    width: 10px;
+    height: 100%;
+    background-color: blue;
+}
+
+article > h1 {
+    margin: 0px;
+}
+
+article > p {
+    margin: 0px;
+    padding: 10px;
+}

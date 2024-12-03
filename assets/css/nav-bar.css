@@ -5,6 +5,8 @@
 }
 
 nav {
+    position: fixed;
+    top: 0;
     box-sizing: border-box;
     display: flex;
     width: 100%;
@@ -27,4 +29,13 @@ nav > button {
 
 nav > gap {
     flex-grow: 1;
+}
+
+main {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: var(--high10);
+    margin: 0px;
+    padding: 0px;
+    padding-top: 60px;
 }
