@@ -1,0 +1,82 @@
+:root {
+    --high0: #005550;
+    --high5: #00a080;
+    --high10: #00e0c0;
+}
+
+main {
+    box-sizing: border-box;
+    height: calc(100vh);
+    background-color: var(--high10);
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile {
+    padding: 10%;
+    width: 80%;
+    align-self: center;
+}
+
+.pic-quote > h1 {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.summary {
+    text-align: center;
+}
+
+.path > section {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    background-color: var(--high0);
+    width: 80%;
+    text-align: center;
+}
+
+@media screen and (min-width: 731px) {
+
+    .profile {
+        padding: 0;
+        width: 30%;
+    }
+    
+    .pic-quote > h1 {
+        text-align: left;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 48px;
+    }
+
+    .pic-quote {
+        display: flex;
+        padding: 20px;
+    }
+
+    .summary {
+        font-size: 24px;
+    }
+
+    .path {
+        display: flex;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .path > section {
+        box-sizing: border-box;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 20px;
+        background-color: var(--high0);
+        width: 80%;
+        text-align: center;
+    }
+
+}
