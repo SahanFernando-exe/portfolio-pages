@@ -17,6 +17,7 @@ main {
     background-color: var(--high5);
     border-radius: 20px;
     padding: 20px;
+    border: var(--high0) solid 5px;
 }
 
 .api > header > h1 {

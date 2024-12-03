@@ -3,7 +3,7 @@
     --high5: #00a080;
     --high10: #00e0c0;
     --high100: #88ffdd;
-    --coners: 20px;
+    --corners: 20px;
 }
 
 main {
@@ -14,7 +14,7 @@ section {
     box-sizing: border-box;
     width: 100%;
     margin-bottom: 20px;
-    border-radius: var(--coners);
+    border-radius: var(--corners);
     background-color: var(--high0);
     padding: 10px;
 }
@@ -23,6 +23,8 @@ section > h1 {
     text-align: center;
     margin: 0;
     padding: 10px;
+    background-color: var(--high5);
+    border-radius: calc(var(--corners) - 5px);
 }
 
 
@@ -30,12 +32,32 @@ section > p {
     text-align: center;
     padding: 10px;
     margin: 0;
+    background-color: var(--high5);
+    border-radius: calc(var(--corners) - 5px);
+    font-size: 20px;
 }
 
+section > img {
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+}
 
-@media screen and (min-width: 731px) {
+@media screen and (min-width: 600px) {
 
     main {
+        padding: 20%;
+        padding-top: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    main {
+        padding: 10px;
         display: flex;
     }
 

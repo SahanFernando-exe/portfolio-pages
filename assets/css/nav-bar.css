@@ -15,16 +15,18 @@ nav {
     margin: 0px;
 }
 
-nav > button {
+nav > a {
     font-size: 24px;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
     margin: 5px;
     background-color: var(--high5);
-    border: var(--high10) solid 2px;
+    border: var(--high10) solid 0px;
     border-radius: 10px;
     box-sizing: border-box;
+    color: #000;
+    text-decoration: none;
 }
 
 nav > gap {
@@ -35,7 +37,7 @@ main {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    margin-top: 60px;
+    margin-top: 58px;
 }
 
 html {

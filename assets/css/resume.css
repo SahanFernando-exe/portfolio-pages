@@ -30,13 +30,6 @@ section:nth-child(odd) {
     padding-left: 20%;
 }
 
-
-section > div {
-    width: 10px;
-    height: 100%;
-    background-color: blue;
-}
-
 article > h1 {
     margin: 0px;
 }
@@ -44,4 +37,13 @@ article > h1 {
 article > p {
     margin: 0px;
     padding: 10px;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 600px) {
+
+    article > p {
+        font-size: 24px;
+    }
+
 }

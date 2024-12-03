@@ -16,7 +16,9 @@ img {
 section > section {
     box-sizing: border-box;
     width: 100%;
-    padding: 50px;
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 10px;
 }
 
 article {
@@ -31,6 +33,10 @@ article > h1 {
     margin: 0;
 }
 
+article > p {
+    font-size: 24px;
+}
+
 @media screen and (min-width: 731px) {
 
     main > section {
@@ -38,8 +44,8 @@ article > h1 {
     }
 
     section > section {
-        width: 40%;
-        padding: 50px;
+        width: 60%;
+        padding: 2vw;
     }
 
     img {
@@ -51,10 +57,10 @@ article > h1 {
     
     article {
         box-sizing: border-box;
-        width: 60%;
+        width: 40%;
         background-color: var(--high100);
         padding: 20px;
-        padding-top: 40px;
+        padding-top: calc(2vw + 20px);
     }
 
 }
