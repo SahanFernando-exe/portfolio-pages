@@ -33,9 +33,11 @@ nav > gap {
 
 main {
     box-sizing: border-box;
-    height: 100vh;
-    background-color: var(--high10);
     margin: 0px;
     padding: 0px;
     padding-top: 60px;
+}
+
+html {
+    background-color: var(--high10);
 }

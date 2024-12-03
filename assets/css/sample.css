@@ -1,0 +1,156 @@
+:root {
+    --high0: #005550;
+    --high5: #00a080;
+    --high10: #00e0c0;
+    --high100: #88ffdd;
+}
+
+:root {
+    --corners: 20px;
+    --basalt: #0f0f20;
+    --obsidian: #101030;
+    --lapis: #202048;
+    --calcite: #a0a0f0;
+    --amethyst: #803080;
+}
+
+.api {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+    background-color: var(--high5);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.api > header {
+    text-align: center;
+    font-size: 32px;
+}
+
+.radio-control {
+    margin-right: 20%;
+}
+
+.radio-control > input[type="radio"] {
+    appearance: none;
+    margin: 0px;
+    margin-right: 10px;
+    margin-left: 16px;
+    width: 2.8em;
+    height: 2.8em;
+    vertical-align: bottom;
+    border-radius: 50%;
+    border: 0.2em solid var(--high0);
+    transition: 0.2s;
+}
+
+.radio-control > input[type="radio"]:hover {
+    border: 0.4em solid var(--high0);
+    transition: 0.1s;
+}
+
+.radio-control > input[type="radio"]:checked {
+    border: 0.2em solid var(--high0);
+    background-color: var(--high100);
+    transition: 0.2s;
+}
+
+.radio-control > input[type="radio"] {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.inputbox-flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: var(--high0);
+    border-radius: var(--corners);
+}
+
+
+
+
+.SubmitButton {
+    font-size: 24px;
+    width: fit-content;
+    align-self: center;
+    color: var(--high100);
+    margin-bottom: 5px;
+    border-width: 0px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.Text {
+    transition: 0.1s;
+    background-color: var(--high10);
+    font-size: 24px;
+    margin: 5px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-grow: 1;
+    border-width: 0px;
+    border-radius: calc(var(--corners) - 5px);
+}
+
+.Text:hover {
+    transition: 0.1s;
+    background-color: var(--high10);
+    outline: 0;
+}
+
+.Text:focus {
+    transition: 0.1s;
+    background-color: var(--high100);
+    outline: 0;
+}
+
+.results > img {
+    box-sizing: border-box;
+    width: 100%;
+    border: var(--high0) solid 5px;
+    border-radius: var(--corners);
+}
+
+.results {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 750px) {
+
+    .api {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+
+    .inputbox-flex {
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .Text {
+        transition: 0.1s;
+        margin: 5px;
+        margin-right: 0px;
+        padding: 4px;
+        padding-left: 10px;
+        flex-grow: 1;
+    }
+
+    .SubmitButton {
+        font-size: 24px;
+        width: fit-content;
+        padding-right: 20px;
+        padding-left: 10px;
+        border-width: 0px;
+        background-color: transparent;
+        margin: 0;
+    }
+}
